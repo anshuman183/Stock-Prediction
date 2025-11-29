@@ -1,8 +1,8 @@
-# 📈 Stock Price Prediction with LSTM  
+# Stock Price Prediction with LSTM  
 
 [![Python](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/)  
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
+ 
 
 This repository demonstrates how to build a **time-series forecasting model** using **Long Short-Term Memory (LSTM)** networks to predict the next 10 days of Apple (AAPL) stock prices.  
 
@@ -10,7 +10,7 @@ It combines **financial data sourcing** via APIs with **deep learning techniques
 
 ---
 
-## 🚀 Project Overview  
+## Project Overview  
 
 - **Objective**: Predict the next 10 days of Apple’s stock closing prices using past 100 days of historical data.  
 - **Data Source**: [Tiingo API](https://api.tiingo.com/) (via `pandas_datareader`).  
@@ -23,7 +23,7 @@ It combines **financial data sourcing** via APIs with **deep learning techniques
 
 ---
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 
 - **Python 3.x**  
 - **Libraries**:  
@@ -36,7 +36,7 @@ It combines **financial data sourcing** via APIs with **deep learning techniques
 
 ---
 
-## 📂 Workflow  
+## Workflow  
 
 1. **Data Collection**  
    - Fetch Apple stock prices using the Tiingo API.  
@@ -61,7 +61,7 @@ It combines **financial data sourcing** via APIs with **deep learning techniques
 
 ---
 
-## 🔑 Key Learnings  
+## Key Learnings  
 
 - Importance of **feature scaling** in neural networks.  
 - **LSTM models** outperform simple RNNs for stock data.  
@@ -69,17 +69,3 @@ It combines **financial data sourcing** via APIs with **deep learning techniques
 - Practical usage of **APIs (Tiingo)** for real datasets.  
 
 ---
-
-## ⚠️ Disclaimer  
-
-This project is for **educational purposes only**.  
-The predictions made by this model **should not be considered financial advice**.  
-
----
-
-## 📌 How to Run  
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/stock-prediction-lstm.git
-   cd stock-prediction-lstm
